@@ -1,18 +1,18 @@
-/* Global reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Main body setup with dark base and animated glow */
+
  body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  /* 🔲 Dark Matte Background */
+  /*  Dark Matte Background */
   background-color: rgb(32, 33, 36);
   position: relative;
   overflow: hidden;
@@ -20,7 +20,7 @@
   color: #ffffff;
 }
 
-/* ☀️ Scattered Sunlight Glow Animation */
+/*  Scattered Sunlight Glow Animation */
 html::before {
   content: "";
   position: absolute;
@@ -40,7 +40,7 @@ html::before {
   opacity: 0.4;
 }
 
-/* 🔁 Subtle moving shimmer */
+/*  Subtle moving shimmer */
 @keyframes shimmer {
   0% {
     transform: rotate(0deg) translate(0%, 0%);
